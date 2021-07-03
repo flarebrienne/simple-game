@@ -16,7 +16,7 @@ body{
     font-weight: 400;
     height:100vh;
     color:#333;
-    background-image:linear-gradient(to top left, #722a8f 20%, #bf2e34 80%);
+    background-image:url("OT7.jpg");
     display: flex;
     align-items: center;
     justify-content: center;

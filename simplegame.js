@@ -42,13 +42,13 @@ btnroll.addEventListener('click', function () {
         if (dicee !== 1) {
             roundscore += dicee;
             dicedom.style.display = 'block';
-            dicedom.src = 'D:\javascript\[FreeCourseSite.com] Udemy - The Complete JavaScript Course 2020 Build Real Projects!\mygame final code\dice-' + dicee + '.png';
+            dicedom.src = 'dice-' + dicee + '.png';
             document.getElementById(`current-${activeplayer}`).textContent = roundscore;
 
         }
         else {
             dicedom.style.display = 'block';
-            dicedom.src = 'D:\javascript\[FreeCourseSite.com] Udemy - The Complete JavaScript Course 2020 Build Real Projects!\mygame final code\dice-' + dicee + '.png';
+            dicedom.src = 'dice-' + dicee + '.png';
             roundscore = 0;
             if (activeplayer === 0) {
                 activeplayer = 1;
